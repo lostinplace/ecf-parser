@@ -1,4 +1,5 @@
 import json
+import os
 
 from ecf_parser.utils import strip_whitespace, get_header_string, \
     get_property_string, consume_ecf_line, parse_header_line, classify_line, \
@@ -6,6 +7,15 @@ from ecf_parser.utils import strip_whitespace, get_header_string, \
 
 from ecf_parser import entry_to_ecf, parse_ecf_entry, ecf_file_to_json, Entry,\
     jsonl_file_to_ecf
+
+wd = os.getcwd()
+
+basename = os.path.basename(wd)
+
+sample_data_folder = 'sample-data/'
+if basename == "tests":
+    sample_data_folder = '../sample-data/'
+
 
 
 def test_line_classifier_returns_null_on_garbage():
@@ -15,7 +25,7 @@ def test_line_classifier_returns_null_on_garbage():
 def test_classifies_all_lines_in_file_correctly():
     from os import path
 
-    file_path = path.abspath("../sample-data/Config_Example.ecf")
+    file_path = path.abspath(sample_data_folder + "Config_Example.ecf")
 
     with open(file_path, 'r') as f:
         lines = f.readlines()
@@ -47,7 +57,7 @@ KNOWN_EXCEPTIONS = [
 def test_constructs_entries_from_file():
     from os import path
 
-    file_path = path.abspath("../sample-data/Config_Example.ecf")
+    file_path = path.abspath(sample_data_folder + "Config_Example.ecf")
 
     with open(file_path, 'r') as f:
         lines = f.readlines()
@@ -180,14 +190,13 @@ def test_ecf_entry_roundtrip():
 
 
 def test_ecf_file_to_json():
-    for v in ecf_file_to_json('../sample-data/Config_Example.ecf'):
+    for v in ecf_file_to_json(sample_data_folder + 'Config_Example.ecf'):
         tmp = json.loads(v)
         assert tmp is not None
 
 
 def test_json_file_to_ecf():
-    for v in jsonl_file_to_ecf('../sample-data/config_example.jsonl'):
+    for v in jsonl_file_to_ecf(sample_data_folder + 'config_example.jsonl'):
         header = v.split("\n")[0]
 
         assert classify_line(header) == "ENTRY_START"
-

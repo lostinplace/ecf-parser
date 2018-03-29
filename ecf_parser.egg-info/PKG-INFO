@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: ecf-parser
+Version: 0.1.1
+Summary: Tools for parsing Empyrion's .ecf files
+Home-page: https://github.com/lostinplace/ecf-parser
+Author: Chris Wheeler
+Author-email: cmwhee@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/lostinplace/ecf-parser/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: empyrion,modding
+Platform: UNKNOWN

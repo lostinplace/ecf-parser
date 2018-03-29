@@ -8,6 +8,8 @@ jsonpickle = "*"
 twine = "*"
 wheel = "*"
 coverage = "*"
+pytest-runner = "*"
+pytest = "*"
 
 [dev-packages]
 

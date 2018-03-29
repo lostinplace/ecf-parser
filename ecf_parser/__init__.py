@@ -5,6 +5,8 @@ from ecf_parser.utils import get_header_string, consume_ecf_line, get_property_s
     read_ecf_lines, strip_whitespace
 
 
+
+
 def parse_ecf_entry(ecf: str) -> 'Entry':
     if not isinstance(ecf, list):
         ecf = ecf.split("\n")
@@ -89,3 +91,16 @@ def jsonl_file_to_ecf(file_path) -> typing.Generator[str, None, None]:
 
     return map(entry_to_ecf, entries_from_jsonl_file(file_path))
 
+
+def print_ecf2json():
+    import sys
+
+    for line in ecf_file_to_json(sys.argv[1]):
+        print(line)
+
+
+def print_json2ecf():
+    import sys
+
+    for line in jsonl_file_to_ecf(sys.argv[1]):
+        print(line)

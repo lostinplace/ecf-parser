@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+ecf_parser/__init__.py
+ecf_parser/parser.py
+ecf_parser/patterns.py
+ecf_parser/utils.py
+ecf_parser.egg-info/PKG-INFO
+ecf_parser.egg-info/SOURCES.txt
+ecf_parser.egg-info/dependency_links.txt
+ecf_parser.egg-info/entry_points.txt
+ecf_parser.egg-info/top_level.txt
+tests/__init__.py
+tests/test_parser.py

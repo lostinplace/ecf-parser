@@ -1,0 +1,4 @@
+[console_scripts]
+ecf2json = ecf_parser.__init__:print_ecf2json
+json2ecf = ecf_parser.__init__:print_json2ecf
+
