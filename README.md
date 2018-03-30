@@ -11,9 +11,8 @@ The empyrion config files are really hard to work with because they're in a cust
 Install with pip and use the command line, or use the utility functions as part of the package.
 
 ```bash
-> pip install ecf_parser
 
-➜  eds pip install ecf_parser
+➜  pip install ecf_parser
 Collecting ecf_parser
   Downloading ecf_parser-0.1.1.tar.gz
 Building wheels for collected packages: ecf-parser
@@ -22,7 +21,7 @@ Building wheels for collected packages: ecf-parser
 Successfully built ecf-parser
 Installing collected packages: ecf-parser
 Successfully installed ecf-parser-0.1.2
-➜  eds ecf2json Content/Configuration/Config_Example.ecf
+➜  ecf2json Content/Configuration/Config_Example.ecf
 
 ```
 
