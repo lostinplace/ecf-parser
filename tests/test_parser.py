@@ -17,10 +17,10 @@ if basename == "tests":
     sample_data_folder = '../sample-data/'
 
 
-
 def test_line_classifier_returns_null_on_garbage():
     result = classify_line("dsljdsfjhlsdkfj dsf")
     assert result is None
+
 
 def test_classifies_all_lines_in_file_correctly():
     from os import path

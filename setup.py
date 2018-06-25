@@ -10,7 +10,7 @@ setup(
     ]
 
   },
-  version='0.1.2',
+  version='0.1.3',
   description="Tools for parsing Empyrion's .ecf files",
   author='Chris Wheeler',
   author_email='cmwhee@gmail.com',

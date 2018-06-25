@@ -1,6 +1,6 @@
 Metadata-Version: 1.2
 Name: ecf-parser
-Version: 0.1.2
+Version: 0.1.3
 Summary: Tools for parsing Empyrion's .ecf files
 Home-page: https://github.com/lostinplace/ecf-parser
 Author: Chris Wheeler

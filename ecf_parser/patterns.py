@@ -12,6 +12,7 @@ ENTRY = { HEADER
 
 class Patterns:
     COMMENT = """^\s*#.*"""
+    A_VERSION_LINE = f"""^VERSION:.*$"""
 
     KEY = "[\w\d]+"
     VALUE = """(([\+\w\d\s\./-]+)|("[\+\w\d\s\./,-]+"))"""
@@ -25,6 +26,7 @@ class Patterns:
     ENTRY_START = f"""^\{{({NORMAL_HEADER})?$"""
     PROPERTY_LINE = f"""^{PROPERTY}$"""
     ENTRY_END = f"""^}}$"""
+
 
     # ENTRY =
     #   ENTRY_START
@@ -45,7 +47,7 @@ class Patterns:
 PATTERN_DICT = Patterns.get_pattern_dict()
 LINE_PATTERN_KVS = list(
     filter(
-        lambda x: x[0] in ("COMMENT", "PROPERTY_LINE", "ENTRY_START", "ENTRY_END"),
+        lambda x: x[0] in ("COMMENT", "PROPERTY_LINE", "ENTRY_START", "ENTRY_END", "A_VERSION_LINE"),
         PATTERN_DICT.items()
     )
 )

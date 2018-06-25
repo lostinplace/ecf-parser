@@ -1,0 +1,232 @@
+# HERDS
+
+# Behavioral AI
+{ EGroup Name: Parasaurs
+  Parasaur: "2, 3"
+  ParasaurBaby: "3, 7"
+}
+
+{ EGroup Name: Spiders01
+  Spider01: "3, 4"
+  SpawnInSameDirection:false
+}
+
+{ EGroup Name: CaveWormGreyHerd
+  CaveWormGrey: "2, 4"
+}
+
+{ EGroup Name: CaveWormWhiteHerd
+  CaveWormWhite: "2, 4"
+}
+{ EGroup Name: CaveWormGreenHerd
+  CaveWormGreen: "2, 4"
+}
+
+# Normal AI
+{ EGroup Name: RaptorHerd
+  RaptorLeader: "1, 1"
+  RaptorGroup: "2, 5"
+  SpawnInSameDirection:true /* if true, animals will spawn all in approximately same direction */
+}
+
+{ EGroup Name: TalonGuardianHerd
+  TalonGuardianLeader: "1, 1"
+  TalonGuardianGroup: "3, 4"
+}
+
+{ EGroup Name: WormDesertHerd
+  WormDesertLeader: "1, 1"
+  WormDesertGroup: "3, 4"
+}
+
+{ EGroup Name: WormDesertLargeHerd
+  WormDesertLargeLeader: "1, 1"
+  WormDesertLargeGroup: "2, 3"
+}
+
+{ EGroup Name: LizardMuleHerd
+  LizardMuleLeader: "1, 1"
+  LizardMuleGroup: "1, 3"
+  LizardMuleBaby: "3, 5"
+}
+
+## ================================================== 
+{ EGroup Name: ZiraxMinigunPatrol
+  ZiraxLaser: "1, 1"
+  ZiraxMinigun: "3, 4"
+}
+
+{ EGroup Name: ZiraxRocketPatrol
+  ZiraxLaser: "1, 1"
+  ZiraxRocket: "3, 4"
+}
+
+{ EGroup Name: ZiraxShotgunPatrol
+  ZiraxLaser: "1, 1"
+  ZiraxShotgun: "3, 4"
+}
+
+{ EGroup Name: ZiraxMechanoidPatrol
+  ZiraxLaser: "1, 1"
+  Mechanoid: "3, 5"
+}
+
+{ EGroup Name: ZiraxCrawlerPatrol
+  ZiraxLaser: "1, 1"
+  CrawlerGroup: "3, 5"
+}
+
+{ EGroup Name: ZiraxOverseerPatrol
+  ZiraxLaser: "1, 1"
+  OverseerGroup: "3, 5"
+}
+
+# Individual behavior but spawned as a group  
+
+# Behavioral AI
+{ EGroup Name: AlienBugs01
+  AlienBug01: "3, 5"
+  SpawnInSameDirection:false
+}
+	
+# Normal AI
+{ EGroup Name: LizardMules
+  LizardMule: "1, 3"
+  LizardMuleBaby: "2, 5"
+}
+
+# Individuals 
+
+# Behavioral AI
+{ EGroup Name: Triceratopses
+  Triceratops:"1, 1"
+}
+
+{ EGroup Name: AlienBugs03
+  AlienBug03: "1, 1"
+}
+
+# Normal AI
+{ EGroup Name: Megalonopses
+  MegalonopsGrey: "1, 1"
+}
+
+{ EGroup Name: Oviraptors
+  Oviraptor: "1, 1"
+}
+
+{ EGroup Name: Raptors
+  Raptor: "1, 1"
+}
+
+{ EGroup Name: MegalonopsesBrown
+  MegalonopsBrown: "1, 1"
+}
+
+{ EGroup Name: RaptorsNight
+  RaptorNight: "1, 1"
+}
+
+{ EGroup Name: GolemsDesert
+  GolemDesert: "1, 1"
+}
+
+{ EGroup Name: GolemsIce
+  GolemIce: "1, 1"
+}
+
+{ EGroup Name: GolemsSwamp
+  GolemSwamp: "1, 1"
+}
+
+{ EGroup Name: WoodWalkers
+  WoodWalker: "1, 1"
+}
+
+{ EGroup Name: WormsDesert
+  WormDesert: "1, 1"
+}
+
+{ EGroup Name: WormsDesertLarge
+  WormDesertLarge: "1, 1"
+}
+
+{ EGroup Name: Otyughs
+  Otyugh: "1, 1"
+}
+
+{ EGroup Name: Spinosauruses
+  Spinosaurus: "1, 1"
+}
+
+{ EGroup Name: CaveWormsGrey
+  CaveWormGrey: "1, 1"
+}
+
+{ EGroup Name: CaveWormsGreen
+  CaveWormGreen: "1, 1"
+}
+
+{ EGroup Name: CaveWormsWhite
+  CaveWormWhite: "1, 1"
+}
+
+{ EGroup Name: Overseers
+  Overseer: "1, 1"
+}
+
+{ EGroup Name: TotalHorrors
+  TotalHorror: "1, 1"
+}
+
+{ EGroup Name: PlantMonsters
+  PlantMonster: "1, 1"
+}
+
+{ EGroup Name: Slimes
+  Slime: "1, 1"
+}
+
+{ EGroup Name: SlimesWhite
+  SlimeWhite: "1, 1"
+}
+
+{ EGroup Name: AlienBugs01
+  AlienBug01: "1, 1"
+}
+
+{ EGroup Name: AlienBugs02
+  AlienBug02: "1, 1"
+}
+
+{ EGroup Name: AlienBugs04
+  AlienBug04: "1, 1"
+}
+
+{ EGroup Name: Spiders02
+  Spider02: "1, 1"
+}
+
+{ EGroup Name: Spiders03
+  Spider03: "1, 1"
+}
+
+{ EGroup Name: Hexapods
+  Hexapod: "1, 1"
+}
+
+{ EGroup Name: AlienAssassinGreys
+  AlienAssassinGrey: "1, 1"
+}
+
+{ EGroup Name: AlienAssassinReds
+  AlienAssassinRed: "1, 1"
+}
+
+{ EGroup Name: TalonGuardians
+  TalonGuardian: "1, 1"
+}
+
+{ EGroup Name: Crawlers
+  Crawler: "1, 1"
+}
