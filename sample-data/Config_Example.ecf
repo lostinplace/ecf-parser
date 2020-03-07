@@ -8343,8 +8343,8 @@ VERSION: 1
     AddHealth: 10, display: HealthValue
     AddStamina: 5, display: StaminaValue
     AddFood: 35, display: FoodValue
-    AddOxygen: 0
- }
+    AddOxygen: 1
+  }
 }
 { Item Id: 2349, Name: Steak, Ref: FoodTemplate
   { 
@@ -8516,7 +8516,7 @@ VERSION: 1
     AddStamina: 12, display: StaminaValue
     AddFood: 182, display: FoodValue
     AddOxygen: 0
- }
+  }
 }
 { Item Id: 2370, Name: TexturedPlantProtein, Ref: FoodTemplate
   Category: Ingredients
@@ -8526,7 +8526,7 @@ VERSION: 1
     AddStamina: 40, display: StaminaValue
     AddFood: 20, display: FoodValue
     AddOxygen: 0
- }
+  }
 }
 { Item Id: 2371, Name: SpaceOrange, Ref: FoodTemplate
   Category: Ingredients
@@ -8536,7 +8536,7 @@ VERSION: 1
     AddStamina: 10, display: StaminaValue
     AddFood: 30, display: FoodValue
     AddOxygen: 0
- }
+  }
 }
 { Item Id: 2372, Name: VeggieBurger, Ref: FoodTemplate
   Category: Food
@@ -8641,7 +8641,7 @@ VERSION: 1
     AddStamina: 0, display: StaminaValue
     AddFood: 25, display: FoodValue
     AddOxygen: 0
- }
+  }
 }
 { Item Id: 2386, Name: PhoenixFernFonds, Ref: FoodTemplate
   Category: Ingredients
@@ -8771,7 +8771,7 @@ VERSION: 1
     AddStamina: 5, display: StaminaValue
     AddFood: 35, display: FoodValue
     AddOxygen: 0
- }
+  }
 }
 { Item Id: 2399, Name: MushroomBrown, Ref: FoodTemplate
   Category: Ingredients
@@ -8797,7 +8797,7 @@ VERSION: 1
     AddStamina: 25, display: StaminaValue
     AddFood: 50, display: FoodValue
     AddOxygen: 0
- }
+  }
 }
 { Item Id: 2403, Name: AlienThorn, Ref: FoodTemplate
   Category: Medical
@@ -8831,7 +8831,7 @@ VERSION: 1
     AddStamina: 5, display: StaminaValue
     AddFood: 25, display: FoodValue
     AddOxygen: 0
- }
+  }
 }
 { Item Id: 2407, Name: Vegetables, Ref: FoodTemplate
   Category: Ingredients
@@ -8969,7 +8969,7 @@ VERSION: 1
     AddStamina: 15, display: StaminaValue
     AddFood: 207, display: FoodValue
     AddOxygen: 0
- }
+  }
 }
 { Item Id: 2423, Name: PowerBar, Ref: FoodTemplate
   Category: Food
@@ -10530,7 +10530,7 @@ VERSION: 1
   { Child Inputs 
     ErestrumIngot: 5
     ZascosiumIngot: 5
-   }
+  }
 }
 { Template Name: ErestrumGel
   OutputCount: 1
@@ -10539,7 +10539,7 @@ VERSION: 1
   { Child Inputs 
     ErestrumIngot: 2
   }
- }
+}
 { Template Name: CrystalWarp
   OutputCount: 2
   CraftTime: 5
