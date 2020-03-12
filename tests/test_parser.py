@@ -62,7 +62,7 @@ def test_constructs_entries_from_file():
     with open(file_path, 'r') as f:
         lines = f.readlines()
         entry_count = 0
-        expected_entry_count = 1421
+        expected_entry_count = 1561
         current_entry = None
         current_entry_lines = []
         for line in lines:
